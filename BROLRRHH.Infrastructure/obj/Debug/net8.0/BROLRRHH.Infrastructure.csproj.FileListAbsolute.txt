@@ -1,0 +1,16 @@
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.deps.json
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.pdb
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Core.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Core.pdb
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.csproj.AssemblyReference.cache
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.AssemblyInfoInputs.cache
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.AssemblyInfo.cs
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.sourcelink.json
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.49495D68.Up2Date
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\refint\BROLRRHH.Infrastructure.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.pdb
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\ref\BROLRRHH.Infrastructure.dll

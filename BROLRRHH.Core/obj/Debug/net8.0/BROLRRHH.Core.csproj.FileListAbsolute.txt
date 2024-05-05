@@ -1,0 +1,12 @@
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.deps.json
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.pdb
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.AssemblyInfoInputs.cache
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.AssemblyInfo.cs
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.csproj.CoreCompileInputs.cache
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.sourcelink.json
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\refint\BROLRRHH.Core.dll
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.pdb
+D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\ref\BROLRRHH.Core.dll
