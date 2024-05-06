@@ -10,3 +10,15 @@ D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\refint\BROLRRHH.Core.dll
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.pdb
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Core\obj\Debug\net8.0\ref\BROLRRHH.Core.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.deps.json
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\bin\Debug\net8.0\BROLRRHH.Core.pdb
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.AssemblyInfoInputs.cache
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.AssemblyInfo.cs
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.csproj.CoreCompileInputs.cache
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.sourcelink.json
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\refint\BROLRRHH.Core.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\BROLRRHH.Core.pdb
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Core\obj\Debug\net8.0\ref\BROLRRHH.Core.dll

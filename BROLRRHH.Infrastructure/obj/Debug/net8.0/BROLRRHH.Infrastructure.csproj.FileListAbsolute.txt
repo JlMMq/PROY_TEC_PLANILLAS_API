@@ -14,3 +14,19 @@ D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\refint\BROLRRHH.Infrastructure.dll
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.pdb
 D:\ISIL\2024-1\Proyecto Tecnologico\BROLRRHH_Backend\BROLRRHH.Infrastructure\obj\Debug\net8.0\ref\BROLRRHH.Infrastructure.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.deps.json
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Infrastructure.pdb
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Core.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\bin\Debug\net8.0\BROLRRHH.Core.pdb
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.csproj.AssemblyReference.cache
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.AssemblyInfoInputs.cache
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.AssemblyInfo.cs
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.csproj.CoreCompileInputs.cache
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.sourcelink.json
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.csproj.CopyComplete
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\refint\BROLRRHH.Infrastructure.dll
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\BROLRRHH.Infrastructure.pdb
+C:\JlMMq\ProyectosISIL\PROY_TEC_PLANILLAS_API\BROLRRHH.Infrastructure\obj\Debug\net8.0\ref\BROLRRHH.Infrastructure.dll
