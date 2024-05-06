@@ -8,5 +8,6 @@ namespace BROLRRHH.Core.Interfaces
 {
     public interface IUnitOfWork
     {
+        ILoginRepository LoginRepository { get; }
     }
 }
