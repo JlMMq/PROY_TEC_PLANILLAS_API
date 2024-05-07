@@ -44,6 +44,7 @@ namespace BROLRRHH.Infrastructure.Repositories
             {
                 res.estadoTrans = false;
                 res.codUser = -1;
+                res.permiso = -1;
             }
             return res;
         }

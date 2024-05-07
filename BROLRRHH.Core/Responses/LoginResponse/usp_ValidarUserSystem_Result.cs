@@ -10,5 +10,6 @@ namespace BROLRRHH.Core.Responses.LoginResponse
     {
         public bool estadoTrans {  get; set; }
         public int codUser {  get; set; }
+        public int permiso { get; set; }
     }
 }
