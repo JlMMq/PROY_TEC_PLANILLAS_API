@@ -9,5 +9,12 @@ namespace BROLRRHH.Core.Interfaces
     public interface IUnitOfWork
     {
         ILoginRepository LoginRepository { get; }
+
+        IDocumentoRepository DocumentoRepository { get; }
+        IEmpleadoRepository EmpleadoRepository { get; }
+        IHorarioRepository HorarioRepository { get; }
+        IMarcaRepository MarcaRepository {  get; }
+        IDiarioRepository DiarioRepository { get; }
+
     }
 }

@@ -16,6 +16,12 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         private IConfiguration _configuration;
 
         private ILoginRepository _loginRepository;
+        private IDiarioRepository _diarioRepository;
+        private IDocumentoRepository _documentoRepository;
+        private IEmpleadoRepository _empleadoRepository;
+        private IHorarioRepository _horarioRepository;
+        private IMarcaRepository _marcaRepository;
+
         public UnitOfWork(ApplicationDbContext context, IConfiguration configuration)
         {
             _configuration = configuration;
@@ -28,5 +34,25 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
             get { return _loginRepository ??= new LoginRepository(_context,_configuration); }
         }
         
+        public IDiarioRepository DiarioRepository
+        {
+            get { return _diarioRepository ??= new DiarioRepository(_context,_configuration); }
+        }
+        public IDocumentoRepository DocumentoRepository
+        {
+            get { return _documentoRepository ??= new DocumentoRepository(_context, _configuration); }
+        }
+        public IEmpleadoRepository EmpleadoRepository
+        {
+            get { return _empleadoRepository ??= new EmpleadoRepository(_context, _configuration); }
+        }
+        public IHorarioRepository HorarioRepository
+        {
+            get { return _horarioRepository ??= new HorarioRepository(_context, _configuration); }
+        }
+        public IMarcaRepository MarcaRepository
+        {
+            get { return _marcaRepository ??= new MarcaRepository(_context, _configuration); }
+        }
     }
 }
