@@ -8,6 +8,6 @@ namespace BROLRRHH.Core.Requests.HorarioRequest
 {
     public class usp_ConsultarHorario_Request
     {
-        public Int32 codigo {  get; set; }
+        public int codigo {  get; set; }
     }
 }
