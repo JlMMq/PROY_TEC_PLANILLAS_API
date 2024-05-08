@@ -11,6 +11,6 @@ namespace BROLRRHH.Core.Responses.DocumentoResponse
         public String? codDoc { get; set; }
         public String? descrCorta { get; set; }
         public String? descrLarga { get; set; }
-        public Int16? longitud { get; set; }
+        public int? longitud { get; set; }
     }
 }

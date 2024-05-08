@@ -8,30 +8,30 @@ namespace BROLRRHH.Core.Responses.HorarioResponse
 {
     public class usp_ConsultarHorario_Response
     {
-        public Int32? codHorario { get; set; }
+        public int? codHorario { get; set; }
         public String? desHorario { get; set; }
-        public DateTime? ingLUN { get; set; }
-        public DateTime? salLUN { get; set; }
-        public DateTime? ingMAR { get; set; }
-        public DateTime? salMAR { get; set; }
-        public DateTime? ingMIE { get; set; }
-        public DateTime? salMIE { get; set; }
-        public DateTime? ingJUE { get; set; }
-        public DateTime? salJUE { get; set; }
-        public DateTime? ingVIE { get; set; }
-        public DateTime? salVIE { get; set; }
-        public DateTime? ingSAB { get; set; }
-        public DateTime? salSAB { get; set; }
-        public DateTime? ingDOM { get; set; }
-        public DateTime? salDOM { get; set; }
-        public Int32? refriger { get; set; }
-        public Int32? tolernc { get; set; }
-        public Int16? diaDesc { get; set; }
+        public TimeSpan? ingLUN { get; set; }
+        public TimeSpan? salLUN { get; set; }
+        public TimeSpan? ingMAR { get; set; }
+        public TimeSpan? salMAR { get; set; }
+        public TimeSpan? ingMIE { get; set; }
+        public TimeSpan? salMIE { get; set; }
+        public TimeSpan? ingJUE { get; set; }
+        public TimeSpan? salJUE { get; set; }
+        public TimeSpan? ingVIE { get; set; }
+        public TimeSpan? salVIE { get; set; }
+        public TimeSpan? ingSAB { get; set; }
+        public TimeSpan? salSAB { get; set; }
+        public TimeSpan? ingDOM { get; set; }
+        public TimeSpan? salDOM { get; set; }
+        public int? refriger { get; set; }
+        public int? tolernc { get; set; }
+        public int? diaDesc { get; set; }
 
-        public DateTime? fec_Reg { get; set; }
-        public string? usu_Reg { get; set; }
-        public DateTime? fec_UltMod { get; set; }
-        public String? usu_UltMod { get; set; }
+        //public DateTime? fec_Reg { get; set; }
+        //public string? usu_Reg { get; set; }
+        //public DateTime? fec_UltMod { get; set; }
+        //public String? usu_UltMod { get; set; }
 
     }
 }

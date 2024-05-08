@@ -27,7 +27,7 @@ namespace BROLRRHH.Infrastructure.Repositories
 
         public async Task<usp_ConsultarDocumento_Response> ConsultarDocumento(usp_ConsultarDocumento_Request obj)
         {
-            usp_ConsultarDocumento_Response res = new usp_ConsultarDocumento_Response();
+            usp_ConsultarDocumento_Response res; 
             try
             {
                 var parameters = new object[] {
@@ -37,10 +37,19 @@ namespace BROLRRHH.Infrastructure.Repositories
                 var query = await _context.Database.SqlQueryRaw<usp_ConsultarDocumento_Response>($"usp_ConsultarDocumento {strParams}", parameters).ToListAsync();
 
                 res = query.FirstOrDefault();
+                if(res == null)
+                {
+                    res = new usp_ConsultarDocumento_Response {
+                        codDoc = ""
+                    };
+                }
             }
             catch (Exception ex)
             {
-
+                res = new usp_ConsultarDocumento_Response
+                {
+                    codDoc = ""
+                };
             }
             return res;
         }

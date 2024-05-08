@@ -26,7 +26,7 @@ namespace BROLRRHH.Infrastructure.Repositories
     
         public async Task<usp_ConsultarDiario_Response> ConsultarDiario(usp_ConsultarDiario_Request obj)
         {
-            usp_ConsultarDiario_Response res = new usp_ConsultarDiario_Response();
+            usp_ConsultarDiario_Response res;
             try
             {
                 var parameters = new object[] {
@@ -36,10 +36,19 @@ namespace BROLRRHH.Infrastructure.Repositories
                 var query = await _context.Database.SqlQueryRaw<usp_ConsultarDiario_Response>($"usp_ConsultarDiario {strParams}", parameters).ToListAsync();
 
                 res = query.FirstOrDefault();
+                if (res == null)
+                {
+                    res = new usp_ConsultarDiario_Response { 
+                        codDiar = 0,
+                    };
+                }
             }
             catch (Exception ex)
             {
-
+                res = new usp_ConsultarDiario_Response
+                {
+                    codDiar = 0,
+                };
             }
             return res;
         }

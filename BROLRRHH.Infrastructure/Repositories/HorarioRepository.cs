@@ -28,7 +28,7 @@ namespace BROLRRHH.Infrastructure.Repositories
 
         public async Task<usp_ConsultarHorario_Response> ConsultarHorario (usp_ConsultarHorario_Request obj)
         {
-            usp_ConsultarHorario_Response res = new usp_ConsultarHorario_Response();
+            usp_ConsultarHorario_Response res;
 
             try
             {
@@ -39,10 +39,19 @@ namespace BROLRRHH.Infrastructure.Repositories
                 var query = await _context.Database.SqlQueryRaw<usp_ConsultarHorario_Response>($"usp_ConsultarHorario {strParams}",parameters).ToListAsync();
 
                 res = query.FirstOrDefault();
+                if (res == null)
+                {
+                    res = new usp_ConsultarHorario_Response
+                    {
+                        codHorario = 0
+                    };
+                }
             }
             catch (Exception ex)
             {
-
+                res = new usp_ConsultarHorario_Response {
+                    codHorario = 0
+                };
             }
             return res;
         }

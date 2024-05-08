@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BROLRRHH.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eabcd9a6bd4e1986f4e4e31174a0fe6f300b520e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a1c0d1f4eebd7fc26cc2de46831cd50ba9476e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BROLRRHH.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BROLRRHH.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

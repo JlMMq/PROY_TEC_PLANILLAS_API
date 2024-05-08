@@ -9,9 +9,9 @@ namespace BROLRRHH.Core.Responses.DiarioResponse
     public class usp_ConsultarDiario_Response
     {
         public Int32 codDiar { get; set; }
-        public DateTime fecha { get; set; }
-        public Int32 empleado { get; set; }
-        public Int32 horario { get; set; }
+        public DateTime? fecha { get; set; }
+        public Int32? empleado { get; set; }
+        public Int32? horario { get; set; }
         public DateTime? hIngreso { get; set; }
         public DateTime? hSalida { get; set; }
         public DateTime? hora1 { get; set; }
@@ -22,9 +22,9 @@ namespace BROLRRHH.Core.Responses.DiarioResponse
         public DateTime? exeRefr { get; set; }
         public DateTime? exeJornd { get; set; }
         public String? observ { get; set; }
-        public DateTime? fec_Reg { get; set; }
-        public string? usu_Reg { get; set; }
-        public DateTime? fec_UltMod { get; set; }
-        public String? usu_UltMod { get; set; }
+    //    public DateTime? fec_Reg { get; set; }
+    //    public string? usu_Reg { get; set; }
+    //    public DateTime? fec_UltMod { get; set; }
+    //    public String? usu_UltMod { get; set; }
     }
 }
