@@ -1,5 +1,6 @@
 ﻿using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.MarcaRequest;
+using BROLRRHH.Core.Responses.MarcaResponse;
 using BROLRRHH.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
@@ -21,8 +22,12 @@ namespace BROLRRHH.Infrastructure.Repositories
             _context = context;
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
-        public async Task<bool>  InsertarMarca(usp_InsertarMarca_Request obj)
+        public async Task<usp_InsertarMarca_Response>  InsertarMarca(usp_InsertarMarca_Request obj)
         {
+            usp_InsertarMarca_Response res = new usp_InsertarMarca_Response
+            {
+                valor = false
+            };
             try
             {
                 using (var conn = new SqlConnection(_connectionString))
@@ -35,7 +40,7 @@ namespace BROLRRHH.Infrastructure.Repositories
 
                         cmd.Parameters.Add(new SqlParameter("@empleado", obj.empleado));
                         cmd.Parameters.Add(new SqlParameter("@horario", obj.horario));
-                        cmd.Parameters.Add(new SqlParameter("@usu_reg", obj.usu_Reg));
+                        cmd.Parameters.Add(new SqlParameter("@usu_Reg", obj.usu_Reg));
                         cmd.Parameters.Add(new SqlParameter("@fecha", obj.fecha));
                         cmd.Parameters.Add(new SqlParameter("@tipo", obj.tipo));
 
@@ -43,18 +48,21 @@ namespace BROLRRHH.Infrastructure.Repositories
 
                         if(rowsAffected > 0)
                         {
-                            return true;
+                            res.valor = true;
+                            return res;
                         }
                         else
                         {
-                            return false;
+                            res.valor = false;
+                            return res;
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                return false;
+                res.valor = false;
+                return res;
             }
         }
     }

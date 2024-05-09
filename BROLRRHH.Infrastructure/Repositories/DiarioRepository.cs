@@ -52,5 +52,36 @@ namespace BROLRRHH.Infrastructure.Repositories
             }
             return res;
         }
+
+        public async Task<usp_ConsultarDiario_Response> ConsultarDiarioFecEmpl(usp_ConsultarDiarioFecEmpl_Request obj)
+        {
+            usp_ConsultarDiario_Response res;
+            try
+            {
+                var parameters = new object[] {
+                    new SqlParameter("@fecha",obj.fecha),
+                    new SqlParameter("@empleado",obj.empleado)
+                };
+                var strParams = "@fecha, @empleado";
+                var query = await _context.Database.SqlQueryRaw<usp_ConsultarDiario_Response>($"usp_ConsultarDiarioFecEmpl {strParams}", parameters).ToListAsync();
+
+                res = query.FirstOrDefault();
+                if (res == null)
+                {
+                    res = new usp_ConsultarDiario_Response
+                    {
+                        codDiar = 0,
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                res = new usp_ConsultarDiario_Response
+                {
+                    codDiar = 0,
+                };
+            }
+            return res;
+        }
     }
 }

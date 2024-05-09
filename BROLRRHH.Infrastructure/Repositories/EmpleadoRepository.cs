@@ -48,5 +48,31 @@ namespace BROLRRHH.Infrastructure.Repositories
             }
             return res;
         }
+
+
+        public async Task<usp_ConsultarEmpleado_response> ConsultarEmpleadoCodDoc(usp_ConsultarEmpleadoCodDoc_Request obj)
+        {
+            usp_ConsultarEmpleado_response res;
+            try
+            {
+                var parameters = new object[] {
+                    new SqlParameter("@codEmpleado",obj.codigo),
+                    new SqlParameter("@numroDoc",obj.numroDoc)
+                };
+                var strParams = "@codEmpleado , @numroDoc";
+                var query = await _context.Database.SqlQueryRaw<usp_ConsultarEmpleado_response>($"usp_ConsultarEmpleadoCodDoc {strParams}", parameters).ToListAsync();
+
+                res = query.FirstOrDefault();
+                if (res == null)
+                {
+                    res = new usp_ConsultarEmpleado_response();
+                }
+            }
+            catch (Exception ex)
+            {
+                res = new usp_ConsultarEmpleado_response();
+            }
+            return res;
+        }
     }
 }

@@ -10,4 +10,9 @@ namespace BROLRRHH.Core.Requests.DiarioRequest
     {
         public int codigo {  get; set; }
     }
+    public class usp_ConsultarDiarioFecEmpl_Request
+    {
+        public DateTime fecha { get; set; }
+        public int empleado { get; set; }
+    }
 }

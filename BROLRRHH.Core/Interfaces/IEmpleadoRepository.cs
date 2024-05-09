@@ -11,5 +11,6 @@ namespace BROLRRHH.Core.Interfaces
     public interface IEmpleadoRepository
     {
         Task<usp_ConsultarEmpleado_response> ConsultarEmpleado(usp_ConsultarEmpleado_Request obj);
+        Task<usp_ConsultarEmpleado_response> ConsultarEmpleadoCodDoc(usp_ConsultarEmpleadoCodDoc_Request obj);
     }
 }

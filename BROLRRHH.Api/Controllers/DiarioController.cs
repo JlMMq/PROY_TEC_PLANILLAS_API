@@ -29,5 +29,18 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex);
             }
         }
+        [HttpPost("ConsultarDiarioFecEmpl")]
+        public async Task<IActionResult> ConsultarDiarioFecEmpl(usp_ConsultarDiarioFecEmpl_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.DiarioRepository.ConsultarDiarioFecEmpl(obj);
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

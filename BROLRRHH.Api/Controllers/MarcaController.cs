@@ -1,5 +1,6 @@
 ﻿using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.MarcaRequest;
+using BROLRRHH.Core.Responses.MarcaResponse;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
@@ -22,7 +23,7 @@ namespace BROLRRHH.Api.Controllers
         {
             try
             {
-                bool res = await _unitOfWork.MarcaRepository.InsertarMarca(obj);
+                usp_InsertarMarca_Response  res = await _unitOfWork.MarcaRepository.InsertarMarca(obj);
                 return Ok(res);
             }catch (Exception ex)
             {

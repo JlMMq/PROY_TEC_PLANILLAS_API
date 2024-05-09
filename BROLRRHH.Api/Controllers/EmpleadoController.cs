@@ -28,5 +28,19 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex);
             }
         }
+
+        [HttpPost("ConsultarEmpleadoCodDoc")]
+        public async Task<IActionResult> ConsultarEmpleadoCodDoc(usp_ConsultarEmpleadoCodDoc_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.ConsultarEmpleadoCodDoc(obj);
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

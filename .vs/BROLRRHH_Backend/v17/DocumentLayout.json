@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\marcacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\horariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\documentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\documentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\documentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\diariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\diariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\responses\\diarioresponse\\usp_consultardiario_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\responses\\diarioresponse\\usp_consultardiario_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,80 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\LoginRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\LoginRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\LoginRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\LoginRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:33:00.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MarcaController.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\MarcaController.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\MarcaController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\MarcaController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\MarcaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:31:05.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HorarioController.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\HorarioController.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\HorarioController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\HorarioController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\HorarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Title": "usp_ConsultarDiario_Response.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:29:22.133Z",
+              "WhenOpened": "2024-05-09T01:47:57.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAZAAAA",
+              "Title": "DiarioRepository.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\DiarioRepository.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\DiarioRepository.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\DiarioRepository.cs",
+              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\DiarioRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAvwDgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:27:42.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DocumentoController.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\DocumentoController.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\DocumentoController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\DocumentoController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\DocumentoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:25:51.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DiarioController.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\DiarioController.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\DiarioController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\DiarioController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\DiarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:21:49.991Z",
+              "WhenOpened": "2024-05-08T23:54:08.726Z",
               "EditorCaption": ""
             }
           ]
@@ -167,79 +83,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e1402993-8a0c-40c5-be65-a0042c731cde",
-        "Display": 1,
-        "X": 210,
-        "Y": 22,
-        "Width": 1495,
-        "Height": 957,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DocumentoRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\DocumentoRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\DocumentoRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\DocumentoRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\DocumentoRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:25:55.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HorarioRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\HorarioRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\HorarioRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\HorarioRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\HorarioRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:29:11.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmpleadoRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:27:46.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MarcaRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\MarcaRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\MarcaRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\MarcaRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\MarcaRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T04:31:08.337Z",
-              "EditorCaption": ""
             }
           ]
         }

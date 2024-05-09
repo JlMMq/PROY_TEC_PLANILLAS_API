@@ -10,4 +10,9 @@ namespace BROLRRHH.Core.Requests.EmpleadoRequest
     {
         public int codigo { get; set; }
     }
+    public class usp_ConsultarEmpleadoCodDoc_Request
+    {
+        public int codigo { get; set; }
+        public string numroDoc { get; set; }
+    }
 }

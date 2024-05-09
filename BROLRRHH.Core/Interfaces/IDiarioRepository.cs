@@ -11,5 +11,6 @@ namespace BROLRRHH.Core.Interfaces
     public interface IDiarioRepository
     {
         Task<usp_ConsultarDiario_Response> ConsultarDiario(usp_ConsultarDiario_Request obj);
+        Task<usp_ConsultarDiario_Response> ConsultarDiarioFecEmpl(usp_ConsultarDiarioFecEmpl_Request obj);
     }
 }
