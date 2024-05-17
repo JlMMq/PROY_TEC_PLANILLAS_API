@@ -12,5 +12,6 @@ namespace BROLRRHH.Core.Interfaces
     {
         Task<usp_ConsultarEmpleado_response> ConsultarEmpleado(usp_ConsultarEmpleado_Request obj);
         Task<usp_ConsultarEmpleado_response> ConsultarEmpleadoCodDoc(usp_ConsultarEmpleadoCodDoc_Request obj);
+        Task<List<usp_ListarEmpleadoView_response>> ListarEmpleadoView();
     }
 }

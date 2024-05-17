@@ -74,5 +74,22 @@ namespace BROLRRHH.Infrastructure.Repositories
             }
             return res;
         }
+
+        public async Task<List<usp_ListarEmpleadoView_response>> ListarEmpleadoView()
+        {
+            List<usp_ListarEmpleadoView_response> res;
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarEmpleadoView_response>($"usp_ListarEmpleadosView {strParams}", parameters).ToListAsync();
+                res = query;
+            }
+            catch(Exception ex)
+            {
+                res = new List<usp_ListarEmpleadoView_response> { };
+            }
+            return res;
+        }
     }
 }

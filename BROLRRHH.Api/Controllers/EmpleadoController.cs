@@ -39,7 +39,20 @@ namespace BROLRRHH.Api.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("ListarEmpleadosView")]
+        public async Task<IActionResult> ListarEmpleadosView()
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.ListarEmpleadoView();
+                return Ok(res);
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }
