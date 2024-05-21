@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\empleadorequest\\usp_eliminarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\requests\\empleadorequest\\usp_eliminarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\empleadorequest\\usp_insertarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\requests\\empleadorequest\\usp_insertarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.core\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\interfaces\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\responses\\empleadoresponse\\usp_listarempleadoview_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\responses\\empleadoresponse\\usp_listarempleadoview_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\empleadorequest\\usp_actualizarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\requests\\empleadorequest\\usp_actualizarempleado_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.core\\responses\\diarioresponse\\usp_consultardiario_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\responses\\diarioresponse\\usp_consultardiario_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\diariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\brolrrhh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,41 +78,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "usp_EliminarEmpleado_Request.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_EliminarEmpleado_Request.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_EliminarEmpleado_Request.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_EliminarEmpleado_Request.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_EliminarEmpleado_Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T04:29:44.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "usp_InsertarEmpleado_Request.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_InsertarEmpleado_Request.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_InsertarEmpleado_Request.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_InsertarEmpleado_Request.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_InsertarEmpleado_Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T03:58:20.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EmpleadoController.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAmwDMAAAAfAAAA",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\EmpleadoController.cs*",
+              "RelativeToolTip": "BROLRRHH.Api\\Controllers\\EmpleadoController.cs*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T02:08:17.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IEmpleadoRepository.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Interfaces\\IEmpleadoRepository.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Interfaces\\IEmpleadoRepository.cs",
               "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Interfaces\\IEmpleadoRepository.cs",
               "RelativeToolTip": "BROLRRHH.Core\\Interfaces\\IEmpleadoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T02:08:11.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "usp_ListarEmpleadoView_response.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\EmpleadoResponse\\usp_ListarEmpleadoView_response.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Core\\Responses\\EmpleadoResponse\\usp_ListarEmpleadoView_response.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\EmpleadoResponse\\usp_ListarEmpleadoView_response.cs",
-              "RelativeToolTip": "BROLRRHH.Core\\Responses\\EmpleadoResponse\\usp_ListarEmpleadoView_response.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T01:56:06.668Z",
               "EditorCaption": ""
             },
             {
@@ -115,14 +136,14 @@
               "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
               "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
               "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwFQAAAAQAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAmwKkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T00:46:17.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\appsettings.json",
               "RelativeDocumentMoniker": "BROLRRHH.Api\\appsettings.json",
@@ -130,12 +151,11 @@
               "RelativeToolTip": "BROLRRHH.Api\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-10T00:46:13.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T00:46:13.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "usp_ConsultarDiario_Response.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Responses\\DiarioResponse\\usp_ConsultarDiario_Response.cs",
@@ -168,6 +188,40 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "0a6ad466-cf6a-4bf7-a1a2-949afc6f3f44",
+        "Display": 1,
+        "X": -12,
+        "Y": 0,
+        "Width": 690,
+        "Height": 365,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "usp_ActualizarEmpleado_Request.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_ActualizarEmpleado_Request.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_ActualizarEmpleado_Request.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_ActualizarEmpleado_Request.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Requests\\EmpleadoRequest\\usp_ActualizarEmpleado_Request.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T04:12:45.356Z",
+              "EditorCaption": ""
             }
           ]
         }

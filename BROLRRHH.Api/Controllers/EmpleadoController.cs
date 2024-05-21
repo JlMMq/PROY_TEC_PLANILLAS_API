@@ -55,5 +55,46 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost("InsertarEmpleado")]
+        public async Task<IActionResult> InsertarEmpleado(usp_InsertarEmpleado_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.InsertarEmpleado(obj);
+                return Ok(res);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("ActualizarEmpleado")]
+        public async Task<IActionResult> ActualizarEmpleado(usp_ActualizarEmpleado_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.ActualizarEmpleado(obj);
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("EliminarEmpleado")]
+        public async Task<IActionResult> EliminarEmpleado(usp_EliminarEmpleado_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.EliminarEmpleado(obj);
+                return Ok(res);
+            } 
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }

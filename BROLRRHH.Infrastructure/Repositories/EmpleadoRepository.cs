@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -90,6 +91,93 @@ namespace BROLRRHH.Infrastructure.Repositories
                 res = new List<usp_ListarEmpleadoView_response> { };
             }
             return res;
+        }
+        public async Task<bool> InsertarEmpleado(usp_InsertarEmpleado_Request obj)
+        {
+            try
+            {
+                var parameters = new object[]
+                {
+                    new SqlParameter("@numroDoc", obj.numroDoc),
+                    new SqlParameter("@tipoDoc", obj.tipoDoc),
+                    new SqlParameter("@apellidos", obj.apellidos),
+                    new SqlParameter("@nombres", obj.nombres),
+                    new SqlParameter("@fecNacimiento", obj.fecNacimiento),
+                    new SqlParameter("@genero", obj.genero),
+                    new SqlParameter("@correo", obj.correo),
+                    new SqlParameter("@direccion", obj.direccion),
+                    new SqlParameter("@telefono", obj.telefono),
+                    new SqlParameter("@fecIngreso", obj.fecIngreso),
+                    new SqlParameter("@codCargo", obj.codCargo),
+                    new SqlParameter("@codArea", obj.codArea),
+                    new SqlParameter("@codSede", obj.codSede),
+                    new SqlParameter("@codHorario", obj.codHorario),
+                    new SqlParameter("@foto", obj.foto),
+                    new SqlParameter("@usu_Reg", obj.usu_Reg),
+                    new SqlParameter("@estado", obj.estado)
+                };
+                var strParams = "@numroDoc ,@tipoDoc, @apellidos, @nombres, @fecNacimiento, @genero, @correo, @direccion, @telefono, @fecIngreso, @codCargo, @codArea, @codSede, @codHorario, @foto, @usu_Reg, @estado";
+                var query = await _context.Database.SqlQueryRaw<bool>($"usp_InsertarEmpleado {strParams}",parameters).ToListAsync();
+                return query.FirstOrDefault();
+            }
+            catch(Exception ex)
+            {
+                return false;   
+            }
+        }
+
+        public async Task<bool> ActualizarEmpleado(usp_ActualizarEmpleado_Request obj)
+        {
+            try
+            {
+                var parameters = new object[]
+                {
+                    new SqlParameter("@codEmpleado", obj.codEmpleado),
+                    new SqlParameter("@numroDoc", obj.numroDoc),
+                    new SqlParameter("@tipoDoc", obj.tipoDoc),
+                    new SqlParameter("@apellidos", obj.apellidos),
+                    new SqlParameter("@nombres", obj.nombres),
+
+                    new SqlParameter("@fecNacimiento", obj.fecNacimiento),
+                    new SqlParameter("@genero", obj.genero),
+                    new SqlParameter("@correo", obj.correo),
+                    new SqlParameter("@direccion", obj.direccion),
+                    new SqlParameter("@telefono", obj.telefono),
+                    new SqlParameter("@fecIngreso", obj.fecIngreso),
+                    new SqlParameter("@codCargo", obj.codCargo),
+                    new SqlParameter("@codArea", obj.codArea),
+                    new SqlParameter("@codSede", obj.codSede),
+                    new SqlParameter("@codHorario", obj.codHorario),
+                    new SqlParameter("@foto", obj.foto),
+                    new SqlParameter("@usu_UltMod", obj.usu_UltMod),
+                    new SqlParameter("@estado", obj.estado)
+                };
+                var strParams = "@codEmpleado,@numroDoc ,@tipoDoc, @apellidos, @nombres, @fecNacimiento, @genero, @correo, @direccion, @telefono, @fecIngreso, @codCargo, @codArea, @codSede, @codHorario, @foto, @usu_UltMod, @estado";
+                var query = await _context.Database.SqlQueryRaw<bool>($"usp_ActualizarEmpleado {strParams}", parameters).ToListAsync();
+                return query.FirstOrDefault();
+
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> EliminarEmpleado(usp_EliminarEmpleado_Request obj)
+        {
+            try
+            {
+                var parameters = new object[]
+                {
+                   new SqlParameter("@codEmpleado", obj.codEmpleado)
+                };
+                var query = await _context.Database.SqlQueryRaw<bool>($"usp_ElimnarEmpleado @codEmpleado", parameters).ToListAsync();
+                return query.FirstOrDefault();
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
         }
     }
 }
