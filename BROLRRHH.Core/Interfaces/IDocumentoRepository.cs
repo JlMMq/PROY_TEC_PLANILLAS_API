@@ -11,5 +11,6 @@ namespace BROLRRHH.Core.Interfaces
     public interface IDocumentoRepository
     {
         Task<usp_ConsultarDocumento_Response> ConsultarDocumento(usp_ConsultarDocumento_Request obj);
+        Task<List<usp_ListarDocumentos_Response>> ListarDocumentos();
     }
 }

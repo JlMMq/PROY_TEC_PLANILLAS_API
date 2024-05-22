@@ -29,5 +29,19 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex);
             }
         }
+
+        [HttpGet("ListarHorarios")]
+        public async Task<IActionResult> ListarHorarios()
+        {
+            try
+            {
+                var res = await _unitOfWork.HorarioRepository.ListarHorarios();
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

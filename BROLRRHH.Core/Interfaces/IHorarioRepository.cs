@@ -11,5 +11,6 @@ namespace BROLRRHH.Core.Interfaces
     public interface IHorarioRepository
     {
         Task<usp_ConsultarHorario_Response> ConsultarHorario(usp_ConsultarHorario_Request obj);
+        Task<List<usp_ListarHorarios_Response>> ListarHorarios();
     }
 }

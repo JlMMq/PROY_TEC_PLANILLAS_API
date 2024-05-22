@@ -2,6 +2,7 @@
 using BROLRRHH.Core.Requests.DocumentoRequest;
 using BROLRRHH.Core.Responses.DocumentoResponse;
 using BROLRRHH.Core.Responses.HorarioResponse;
+using BROLRRHH.Core.Responses.SedeResponse;
 using BROLRRHH.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -50,6 +51,23 @@ namespace BROLRRHH.Infrastructure.Repositories
                 {
                     codDoc = ""
                 };
+            }
+            return res;
+        }
+
+        public async Task<List<usp_ListarDocumentos_Response>> ListarDocumentos()
+        {
+            List<usp_ListarDocumentos_Response> res;
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarDocumentos_Response>($"usp_ListarDocumentos {strParams}", parameters).ToListAsync();
+                res = query;
+            }
+            catch (Exception ex)
+            {
+                res = new List<usp_ListarDocumentos_Response> { };
             }
             return res;
         }

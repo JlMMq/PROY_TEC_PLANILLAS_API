@@ -1,6 +1,7 @@
 ﻿using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.HorarioRequest;
 using BROLRRHH.Core.Responses.HorarioResponse;
+using BROLRRHH.Core.Responses.SedeResponse;
 using BROLRRHH.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +53,23 @@ namespace BROLRRHH.Infrastructure.Repositories
                 res = new usp_ConsultarHorario_Response {
                     codHorario = 0
                 };
+            }
+            return res;
+        }
+
+        public async Task<List<usp_ListarHorarios_Response>> ListarHorarios()
+        {
+            List<usp_ListarHorarios_Response> res;
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarHorarios_Response>($"usp_ListarHorarios {strParams}", parameters).ToListAsync();
+                res = query;
+            }
+            catch (Exception ex)
+            {
+                res = new List<usp_ListarHorarios_Response> { };
             }
             return res;
         }

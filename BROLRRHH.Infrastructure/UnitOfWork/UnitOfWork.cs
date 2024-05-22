@@ -21,7 +21,9 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         private IEmpleadoRepository _empleadoRepository;
         private IHorarioRepository _horarioRepository;
         private IMarcaRepository _marcaRepository;
-
+        private IAreaRepository _areaRepository;
+        private ICargoRepository _cargoRepository;
+        private ISedeRepository _sedeRepository;
         public UnitOfWork(ApplicationDbContext context, IConfiguration configuration)
         {
             _configuration = configuration;
@@ -53,6 +55,18 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         public IMarcaRepository MarcaRepository
         {
             get { return _marcaRepository ??= new MarcaRepository(_context, _configuration); }
+        }
+        public IAreaRepository AreaRepository
+        {
+            get { return _areaRepository ??= new AreaRepository(_context, _configuration); }
+        }
+        public ICargoRepository CargoRepository
+        {
+            get { return _cargoRepository ??= new CargoRepository(_context, _configuration); }
+        }
+        public ISedeRepository SedeRepository
+        {
+            get { return _sedeRepository ??= new SedeRepository(_context, _configuration); }
         }
     }
 }

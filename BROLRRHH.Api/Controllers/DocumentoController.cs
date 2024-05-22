@@ -29,5 +29,19 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex);
             }
         }
+
+        [HttpGet("ListarDocumentos")]
+        public async Task<IActionResult> ListarDocumentos()
+        {
+            try
+            {
+                var res = await _unitOfWork.DocumentoRepository.ListarDocumentos();
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

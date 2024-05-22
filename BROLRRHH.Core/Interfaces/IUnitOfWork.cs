@@ -15,6 +15,9 @@ namespace BROLRRHH.Core.Interfaces
         IHorarioRepository HorarioRepository { get; }
         IMarcaRepository MarcaRepository {  get; }
         IDiarioRepository DiarioRepository { get; }
+        IAreaRepository AreaRepository { get; }
+        ICargoRepository CargoRepository { get; }
 
+        ISedeRepository SedeRepository { get; }
     }
 }
