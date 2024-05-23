@@ -117,8 +117,8 @@ namespace BROLRRHH.Infrastructure.Repositories
                     new SqlParameter("@estado", obj.estado)
                 };
                 var strParams = "@numroDoc ,@tipoDoc, @apellidos, @nombres, @fecNacimiento, @genero, @correo, @direccion, @telefono, @fecIngreso, @codCargo, @codArea, @codSede, @codHorario, @foto, @usu_Reg, @estado";
-                var query = await _context.Database.SqlQueryRaw<bool>($"usp_InsertarEmpleado {strParams}",parameters).ToListAsync();
-                return query.FirstOrDefault();
+                var result = await _context.Database.ExecuteSqlRawAsync($"usp_InsertarEmpleado {strParams}",parameters);
+                return result > 0;
             }
             catch(Exception ex)
             {
@@ -153,8 +153,8 @@ namespace BROLRRHH.Infrastructure.Repositories
                     new SqlParameter("@estado", obj.estado)
                 };
                 var strParams = "@codEmpleado,@numroDoc ,@tipoDoc, @apellidos, @nombres, @fecNacimiento, @genero, @correo, @direccion, @telefono, @fecIngreso, @codCargo, @codArea, @codSede, @codHorario, @foto, @usu_UltMod, @estado";
-                var query = await _context.Database.SqlQueryRaw<bool>($"usp_ActualizarEmpleado {strParams}", parameters).ToListAsync();
-                return query.FirstOrDefault();
+                var result = await _context.Database.ExecuteSqlRawAsync($"usp_ActualizarEmpleado {strParams}", parameters);
+                return result > 0;
 
             }
             catch(Exception ex)
@@ -171,8 +171,8 @@ namespace BROLRRHH.Infrastructure.Repositories
                 {
                    new SqlParameter("@codEmpleado", obj.codEmpleado)
                 };
-                var query = await _context.Database.SqlQueryRaw<bool>($"usp_ElimnarEmpleado @codEmpleado", parameters).ToListAsync();
-                return query.FirstOrDefault();
+                var result = await _context.Database.ExecuteSqlRawAsync("usp_EliminarEmpleado @codEmpleado", parameters);
+                return result > 0;
             }
             catch(Exception ex)
             {

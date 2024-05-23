@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JlMMq\\ProyectosISIL\\PROY_TEC_PLANILLAS_API\\BROLRRHH.Core\\BROLRRHH.Core.csproj": {}
+    "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\BROLRRHH.Core.csproj": {}
   },
   "projects": {
-    "C:\\JlMMq\\ProyectosISIL\\PROY_TEC_PLANILLAS_API\\BROLRRHH.Core\\BROLRRHH.Core.csproj": {
+    "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\BROLRRHH.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JlMMq\\ProyectosISIL\\PROY_TEC_PLANILLAS_API\\BROLRRHH.Core\\BROLRRHH.Core.csproj",
+        "projectUniqueName": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\BROLRRHH.Core.csproj",
         "projectName": "BROLRRHH.Core",
-        "projectPath": "C:\\JlMMq\\ProyectosISIL\\PROY_TEC_PLANILLAS_API\\BROLRRHH.Core\\BROLRRHH.Core.csproj",
-        "packagesPath": "C:\\Users\\tsoftware\\.nuget\\packages\\",
-        "outputPath": "C:\\JlMMq\\ProyectosISIL\\PROY_TEC_PLANILLAS_API\\BROLRRHH.Core\\obj\\",
+        "projectPath": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\BROLRRHH.Core.csproj",
+        "packagesPath": "C:\\Users\\jlmal\\.nuget\\packages\\",
+        "outputPath": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tsoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jlmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
