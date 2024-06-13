@@ -11,5 +11,7 @@ namespace BROLRRHH.Core.Interfaces
     public interface ILoginRepository
     {
         Task<usp_ValidarUserSystem_Result> ValidarUsuarioSistema(usp_ValidarUserSystem_Request obj);
+        Task<bool> ActualizarCorreo(usp_ActualizarCorreo_Request obj);
+        Task<bool> CambiarPassword(usp_CambiarPassword_Request obj);
     }
 }

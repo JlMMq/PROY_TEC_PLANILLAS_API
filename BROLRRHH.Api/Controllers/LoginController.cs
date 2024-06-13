@@ -30,5 +30,34 @@ namespace BROLRRHH.Api.Controllers
                 return  BadRequest(ex.Message); 
             }
         }
+
+        [HttpPost("ActualizarCorreo")]
+        public async Task<IActionResult> ActualizarCorreo(usp_ActualizarCorreo_Request rq)
+        {
+            try
+            {
+                var res = await _unitOfWork.LoginRepository.ActualizarCorreo(rq);
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("ActualizarPass")]
+        public async Task<IActionResult> ActualizarPassword(usp_CambiarPassword_Request rq)
+        {
+            try
+            {
+                var res = await _unitOfWork.LoginRepository.CambiarPassword(rq);
+                return Ok(res);
+            }
+            catch(Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            } 
+        }
+            
     }
 }
