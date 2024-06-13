@@ -1,6 +1,8 @@
 ﻿using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.LoginRequest;
+using BROLRRHH.Core.Requests.UserSystemRequest;
 using BROLRRHH.Core.Responses.LoginResponse;
+using BROLRRHH.Core.Responses.UserSystemResponse;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -58,6 +60,33 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex.Message);
             } 
         }
-            
+
+        [HttpGet("ListarUsuarios")]
+        public async Task<IActionResult> ListarUsuarios()
+        {
+            try
+            {
+                var res = await _unitOfWork.LoginRepository.ListarUsuarios();
+                return Ok(res);
+            }catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost("ActualizarPermiso")]
+        public async Task<IActionResult> ActualizarPermisosUser(usp_UpdPermisosUserSystem_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.LoginRepository.ActualizarPermisosUser(obj);
+                return Ok(res);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
     }
 }

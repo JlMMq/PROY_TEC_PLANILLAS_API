@@ -14,6 +14,9 @@ using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.EmpleadoRequest;
 using System.Net.Http.Headers;
 using System.Runtime.InteropServices.Marshalling;
+using BROLRRHH.Core.Responses.EmpleadoResponse;
+using BROLRRHH.Core.Responses.UserSystemResponse;
+using BROLRRHH.Core.Requests.UserSystemRequest;
 
 namespace BROLRRHH.Infrastructure.Repositories
 {
@@ -93,5 +96,43 @@ namespace BROLRRHH.Infrastructure.Repositories
             }
         }
 
+
+        //MOMENTANEO
+        public async Task<List<usp_ListarUserSystem_Response>> ListarUsuarios()
+        {
+            List<usp_ListarUserSystem_Response> res;
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarUserSystem_Response>($"usp_ListarUserSystem {strParams}", parameters).ToListAsync();
+                res = query;
+            }
+            catch (Exception ex)
+            {
+                res = new List<usp_ListarUserSystem_Response> { };
+            }
+            return res;
+        }
+
+        public async Task<bool> ActualizarPermisosUser(usp_UpdPermisosUserSystem_Request obj)
+        {
+            try
+            {
+                var parameters = new object[]
+               {
+                    new SqlParameter("@codUser", obj.codUser),
+                    new SqlParameter("@permiso", obj.permiso),
+                    new SqlParameter("@estado", obj.estado)
+               };
+                var strParams = "@codUser, @permiso, @estado";
+                var result = await _context.Database.ExecuteSqlRawAsync($"usp_UpdPermisosUserSystem {strParams}", parameters);
+                return result > 0;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }
