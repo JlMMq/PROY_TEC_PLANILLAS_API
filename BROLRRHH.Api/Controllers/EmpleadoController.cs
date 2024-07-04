@@ -1,5 +1,6 @@
 ﻿using BROLRRHH.Core.Interfaces;
 using BROLRRHH.Core.Requests.EmpleadoRequest;
+using BROLRRHH.Core.Responses.EmpleadoResponse;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -90,6 +91,20 @@ namespace BROLRRHH.Api.Controllers
                 var res = await _unitOfWork.EmpleadoRepository.EliminarEmpleado(obj);
                 return Ok(res);
             } 
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("ListarEmpleadoLite")]
+        public async Task<IActionResult> ListarSoliEmpleadosSuperv()
+        {
+            try
+            {
+                var res = await _unitOfWork.EmpleadoRepository.ListarSoliEmpleadosSuperv();
+                return Ok(res); 
+            }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);

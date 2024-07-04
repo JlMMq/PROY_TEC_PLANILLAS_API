@@ -19,5 +19,7 @@ namespace BROLRRHH.Core.Interfaces
         ICargoRepository CargoRepository { get; }
 
         ISedeRepository SedeRepository { get; }
+
+        ISolicitudRepository SolicitudRepository { get; }
     }
 }

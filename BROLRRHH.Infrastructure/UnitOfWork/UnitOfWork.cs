@@ -24,6 +24,7 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         private IAreaRepository _areaRepository;
         private ICargoRepository _cargoRepository;
         private ISedeRepository _sedeRepository;
+        private ISolicitudRepository _solicitudRepository;
         public UnitOfWork(ApplicationDbContext context, IConfiguration configuration)
         {
             _configuration = configuration;
@@ -67,6 +68,11 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         public ISedeRepository SedeRepository
         {
             get { return _sedeRepository ??= new SedeRepository(_context, _configuration); }
+        }
+
+        public ISolicitudRepository SolicitudRepository
+        {
+            get { return _solicitudRepository ??= new SolicitudRepository(_context, _configuration); }
         }
     }
 }

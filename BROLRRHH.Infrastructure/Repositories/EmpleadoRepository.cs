@@ -179,5 +179,22 @@ namespace BROLRRHH.Infrastructure.Repositories
                 return false;
             }
         }
+
+        public async Task<IEnumerable<usp_ListarSoliEmpleadosSuperv_response>> ListarSoliEmpleadosSuperv()
+        {
+            List<usp_ListarSoliEmpleadosSuperv_response> obj = new List<usp_ListarSoliEmpleadosSuperv_response> ();
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarSoliEmpleadosSuperv_response>($"usp_ListarSoliEmpleadosSuperv {strParams}", parameters).ToListAsync();
+                obj = query;
+                return obj;
+            }
+            catch (Exception ex)
+            {
+                return obj;
+            }
+        }
     }
 }

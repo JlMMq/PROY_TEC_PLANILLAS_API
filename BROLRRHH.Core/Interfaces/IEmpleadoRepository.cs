@@ -16,5 +16,6 @@ namespace BROLRRHH.Core.Interfaces
         Task<bool> InsertarEmpleado(usp_InsertarEmpleado_Request obj);
         Task<bool> ActualizarEmpleado(usp_ActualizarEmpleado_Request obj);
         Task<bool> EliminarEmpleado(usp_EliminarEmpleado_Request obj);
+        Task<IEnumerable<usp_ListarSoliEmpleadosSuperv_response>> ListarSoliEmpleadosSuperv();
     }
 }
