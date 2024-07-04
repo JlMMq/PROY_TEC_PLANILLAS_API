@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\solicitudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\solicitudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\interfaces\\isolicitudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.api\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9088C0-9D2A-4400-8AA6-3084E512686F}|BROLRRHH.Api\\BROLRRHH.Api.csproj|solutionrelative:brolrrhh.api\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F34E3483-F5AE-460B-A6BC-5F70175A789E}|BROLRRHH.Infrastructure\\BROLRRHH.Infrastructure.csproj|solutionrelative:brolrrhh.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\solicitudrequest\\usp_consultararchivosolicitud_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\requests\\solicitudrequest\\usp_consultararchivosolicitud_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\solicitudrequest\\usp_insertarsolicitud_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +33,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\requests\\solicitudrequest\\usp_listarsolicitudesview_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\requests\\solicitudrequest\\usp_listarsolicitudesview_request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|d:\\isil\\2024-1\\proyecto tecnologico\\brolrrhh_backend\\brolrrhh.core\\responses\\solicitudresponse\\usp_consultararchivosolicitud_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F58EBCD-513B-4536-B9DC-5FD613194DBA}|BROLRRHH.Core\\BROLRRHH.Core.csproj|solutionrelative:brolrrhh.core\\responses\\solicitudresponse\\usp_consultararchivosolicitud_response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +78,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "usp_ConsultarArchivoSolicitud_Request.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ConsultarArchivoSolicitud_Request.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ConsultarArchivoSolicitud_Request.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ConsultarArchivoSolicitud_Request.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ConsultarArchivoSolicitud_Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:11:39.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwFoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:09:22.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "usp_ListarSolicitudesView_Request.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ListarSolicitudesView_Request.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_ListarSolicitudesView_Request.cs",
@@ -79,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "usp_ListarSolicitudesView_Response.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ListarSolicitudesView_Response.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ListarSolicitudesView_Response.cs",
@@ -92,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "usp_InsertarSolicitud_Request.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_InsertarSolicitud_Request.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Requests\\SolicitudRequest\\usp_InsertarSolicitud_Request.cs",
@@ -105,13 +143,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SolicitudController.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\SolicitudController.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Api\\Controllers\\SolicitudController.cs",
               "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Api\\Controllers\\SolicitudController.cs",
               "RelativeToolTip": "BROLRRHH.Api\\Controllers\\SolicitudController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA/AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T02:49:03.438Z",
               "EditorCaption": ""
@@ -119,27 +157,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SolicitudRepository.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
+              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T18:04:55.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ISolicitudRepository.cs",
               "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Interfaces\\ISolicitudRepository.cs",
               "RelativeDocumentMoniker": "BROLRRHH.Core\\Interfaces\\ISolicitudRepository.cs",
               "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Interfaces\\ISolicitudRepository.cs",
               "RelativeToolTip": "BROLRRHH.Core\\Interfaces\\ISolicitudRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T00:02:54.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SolicitudRepository.cs",
-              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
-              "RelativeDocumentMoniker": "BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
-              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
-              "RelativeToolTip": "BROLRRHH.Infrastructure\\Repositories\\SolicitudRepository.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAqwG0AAAAeAAAA",
+              "DocumentIndex": 8,
+              "Title": "usp_ConsultarArchivoSolicitud_Response.cs",
+              "DocumentMoniker": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ConsultarArchivoSolicitud_Response.cs",
+              "RelativeDocumentMoniker": "BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ConsultarArchivoSolicitud_Response.cs",
+              "ToolTip": "D:\\ISIL\\2024-1\\Proyecto Tecnologico\\BROLRRHH_Backend\\BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ConsultarArchivoSolicitud_Response.cs",
+              "RelativeToolTip": "BROLRRHH.Core\\Responses\\SolicitudResponse\\usp_ConsultarArchivoSolicitud_Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T18:04:55.115Z",
+              "WhenOpened": "2024-07-04T05:12:04.875Z",
               "EditorCaption": ""
             }
           ]

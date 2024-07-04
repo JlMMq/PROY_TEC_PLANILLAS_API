@@ -23,7 +23,7 @@ namespace BROLRRHH.Api.Controllers
             try
             {
                 var res = await _unitOfWork.SolicitudRepository.ListarSolicitudView(obj);
-                return Ok();
+                return Ok(res);
             }
             catch (Exception ex)
             {
@@ -37,7 +37,7 @@ namespace BROLRRHH.Api.Controllers
             try
             {
                 var res = await _unitOfWork.SolicitudRepository.ConsultarArchivoSolicitud(obj);
-                return Ok();
+                return Ok(res);
             }
             catch (Exception ex)
             {

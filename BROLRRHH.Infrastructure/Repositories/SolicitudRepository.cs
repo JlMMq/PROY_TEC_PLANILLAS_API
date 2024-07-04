@@ -103,7 +103,7 @@ namespace BROLRRHH.Infrastructure.Repositories
                 var parameters = new object[]
                 {
                     new SqlParameter("@codSupervisor", obj.codSupervisor),
-                    new SqlParameter("@codSolcitante", obj.codSolicitante)
+                    new SqlParameter("@codSolicitante", obj.codSolicitante)
                 };
 
                 var strParams = "@codSupervisor, @codSolicitante";
