@@ -4,9 +4,11 @@ using BROLRRHH.Core.Responses.SolicitudResponse;
 using BROLRRHH.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -73,7 +75,7 @@ namespace BROLRRHH.Infrastructure.Repositories
 
             try
             {
-                var parameters = new SqlParameter[]
+                var parameters = new object[]
                 {
                     new SqlParameter("@codSolicitud",obj.codSolicitud),
                     new SqlParameter("@estado", obj.estado),
@@ -93,5 +95,47 @@ namespace BROLRRHH.Infrastructure.Repositories
             return msm;
         }
 
+        public async Task<IEnumerable<usp_ListarSolicitudesView_Response>> ListarSolicitudView(usp_ListarSolicitudesView_Request obj)
+        {
+            List<usp_ListarSolicitudesView_Response> list = new List<usp_ListarSolicitudesView_Response> ();
+            try
+            {
+                var parameters = new object[]
+                {
+                    new SqlParameter("@codSupervisor", obj.codSupervisor),
+                    new SqlParameter("@codSolcitante", obj.codSolicitante)
+                };
+
+                var strParams = "@codSupervisor, @codSolicitante";
+                var result = await _context.Database.SqlQueryRaw<usp_ListarSolicitudesView_Response>($"usp_ListarSolicitudesView {strParams}",parameters).ToListAsync();
+                list = result;
+            }
+            catch(Exception ex)
+            {
+                list = new List<usp_ListarSolicitudesView_Response> { };
+            }
+
+            return list;
+        }
+
+        public async Task<usp_ConsultarArchivoSolicitud_Response> ConsultarArchivoSolicitud(usp_ConsultarArchivoSolicitud_Request obj)
+        {
+            usp_ConsultarArchivoSolicitud_Response arch = new usp_ConsultarArchivoSolicitud_Response();
+            try
+            {
+                var parameters = new object[] { 
+                    new SqlParameter("@codSolicitud",obj.codSolicitud)
+                };
+                var strParams = "@codSolicitud";
+                var result = await _context.Database.SqlQueryRaw<usp_ConsultarArchivoSolicitud_Response>($"usp_ConsultarArchivoSolicitud {strParams}", parameters).ToListAsync();
+                arch = result.FirstOrDefault();
+            }
+            catch(Exception ex)
+            {
+
+            }
+
+            return arch;
+        }
     }
 }

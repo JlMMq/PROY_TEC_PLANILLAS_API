@@ -17,12 +17,26 @@ namespace BROLRRHH.Api.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        [HttpGet("ListarSolicitudesSuperv")]
-        public async Task<IActionResult> ListarSolicitudesSuperv()
+        [HttpPost("ListarSolicitudesView")]
+        public async Task<IActionResult> ListarSolicitudesView(usp_ListarSolicitudesView_Request obj)
         {
             try
             {
-                //var res = await _unitOfWork.SedeRepository.ListarSede();
+                var res = await _unitOfWork.SolicitudRepository.ListarSolicitudView(obj);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        [HttpPost("ConsultarArchivoSolicitud")]
+        public async Task<IActionResult> ConsultarArchivoSolicitud(usp_ConsultarArchivoSolicitud_Request obj)
+        {
+            try
+            {
+                var res = await _unitOfWork.SolicitudRepository.ConsultarArchivoSolicitud(obj);
                 return Ok();
             }
             catch (Exception ex)
