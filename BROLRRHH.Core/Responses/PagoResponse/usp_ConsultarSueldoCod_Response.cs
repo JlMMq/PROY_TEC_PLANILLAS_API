@@ -10,6 +10,7 @@ namespace BROLRRHH.Core.Responses.PagoResponse
     {
         public int codSueldo {  get; set; }
         public int codEmpleado { get; set; }
+        public double sueldo { get; set; }
         public int essalud {  get; set; }
         public int afil_onp { get; set; }
         public int afil_afp { get; set; }

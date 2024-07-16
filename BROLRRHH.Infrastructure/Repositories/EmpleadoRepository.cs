@@ -92,8 +92,9 @@ namespace BROLRRHH.Infrastructure.Repositories
             }
             return res;
         }
-        public async Task<bool> InsertarEmpleado(usp_InsertarEmpleado_Request obj)
+        public async Task<usp_InsertarEmpleado_Response> InsertarEmpleado(usp_InsertarEmpleado_Request obj)
         {
+            usp_InsertarEmpleado_Response res = new usp_InsertarEmpleado_Response { codigo = 0 };
             try
             {
                 var parameters = new object[]
@@ -117,13 +118,14 @@ namespace BROLRRHH.Infrastructure.Repositories
                     new SqlParameter("@estado", obj.estado)
                 };
                 var strParams = "@numroDoc ,@tipoDoc, @apellidos, @nombres, @fecNacimiento, @genero, @correo, @direccion, @telefono, @fecIngreso, @codCargo, @codArea, @codSede, @codHorario, @foto, @usu_Reg, @estado";
-                var result = await _context.Database.ExecuteSqlRawAsync($"usp_InsertarEmpleado {strParams}",parameters);
-                return result > 0;
+                var result = await _context.Database.SqlQueryRaw<usp_InsertarEmpleado_Response>($"usp_InsertarEmpleado {strParams}",parameters).ToListAsync();
+                res.codigo = result.FirstOrDefault().codigo;
             }
             catch(Exception ex)
             {
-                return false;   
+                res.codigo = 0;
             }
+            return res;
         }
 
         public async Task<bool> ActualizarEmpleado(usp_ActualizarEmpleado_Request obj)

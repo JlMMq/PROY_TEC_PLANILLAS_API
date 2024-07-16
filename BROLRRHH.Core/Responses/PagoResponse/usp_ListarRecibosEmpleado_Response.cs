@@ -13,11 +13,11 @@ namespace BROLRRHH.Core.Responses.PagoResponse
         public string apenom {  get; set; }
         public DateTime fechaEmision {  get; set; }
         public string moneda { get; set; }
-        public float sueldoBase { get; set; }
-        public float descEssalud { get; set; }
-        public float descOnp { get; set; }
-        public float descAfp { get; set; }
-        public float descFaltas { get; set;}
-        public float sueldoTotal { get; set; }
+        public double sueldoBase { get; set; }
+        public double descEssalud { get; set; }
+        public double descOnp { get; set; }
+        public double descAfp { get; set; }
+        public double descFaltas { get; set;}
+        public double sueldoTotal { get; set; }
     }
 }

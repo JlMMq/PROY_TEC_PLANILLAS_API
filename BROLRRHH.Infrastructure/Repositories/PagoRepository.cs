@@ -94,14 +94,14 @@ namespace BROLRRHH.Infrastructure.Repositories
                 }
                 else
                 {
-                    msm.CODIGO = -1;
+                    msm.CODIGO = 0;
                     msm.MENSAJE = "No se actualizo correctamente.";
                 }
 
             }
             catch (Exception ex)
             {
-                msm.CODIGO = -1;
+                msm.CODIGO = 0;
                 msm.MENSAJE = "Error al procesar la solicitud.";
             }
             return msm;
