@@ -21,5 +21,6 @@ namespace BROLRRHH.Core.Interfaces
         ISedeRepository SedeRepository { get; }
 
         ISolicitudRepository SolicitudRepository { get; }
+        IPagoRepository PagoRepository { get; }
     }
 }

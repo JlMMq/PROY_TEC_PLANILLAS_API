@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BROLRRHH.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore.Query.Internal;
+using System.Linq.Expressions;
 
 namespace BROLRRHH.Infrastructure.UnitOfWork
 {
@@ -25,6 +27,7 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         private ICargoRepository _cargoRepository;
         private ISedeRepository _sedeRepository;
         private ISolicitudRepository _solicitudRepository;
+        private IPagoRepository _pagoRepository;
         public UnitOfWork(ApplicationDbContext context, IConfiguration configuration)
         {
             _configuration = configuration;
@@ -34,12 +37,12 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
 
         public ILoginRepository LoginRepository
         {
-            get { return _loginRepository ??= new LoginRepository(_context,_configuration); }
+            get { return _loginRepository ??= new LoginRepository(_context, _configuration); }
         }
-        
+
         public IDiarioRepository DiarioRepository
         {
-            get { return _diarioRepository ??= new DiarioRepository(_context,_configuration); }
+            get { return _diarioRepository ??= new DiarioRepository(_context, _configuration); }
         }
         public IDocumentoRepository DocumentoRepository
         {
@@ -74,5 +77,10 @@ namespace BROLRRHH.Infrastructure.UnitOfWork
         {
             get { return _solicitudRepository ??= new SolicitudRepository(_context, _configuration); }
         }
+        public IPagoRepository PagoRepository
+        {
+            get { return _pagoRepository ??= new PagoRepository(_context, _configuration); }
+        }
+    
     }
 }
