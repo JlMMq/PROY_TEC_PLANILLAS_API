@@ -2,6 +2,7 @@
 using BROLRRHH.Core.Requests.DiarioRequest;
 using BROLRRHH.Core.Responses.DiarioResponse;
 using BROLRRHH.Core.Responses.DocumentoResponse;
+using BROLRRHH.Core.Responses.EmpleadoResponse;
 using BROLRRHH.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -82,6 +83,24 @@ namespace BROLRRHH.Infrastructure.Repositories
                 };
             }
             return res;
+        }
+
+        public async Task<IEnumerable<usp_ListarDiario_Response>>ListarDiario()
+        {
+            List<usp_ListarDiario_Response> list = new List<usp_ListarDiario_Response>();
+            try
+            {
+                var parameters = new object[] { };
+                var strParams = "";
+                var query = await _context.Database.SqlQueryRaw<usp_ListarDiario_Response>($"usp_ListarDiario {strParams}", parameters).ToListAsync();
+                list = query;
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            return list;
         }
     }
 }

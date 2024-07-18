@@ -12,5 +12,6 @@ namespace BROLRRHH.Core.Interfaces
     {
         Task<usp_ConsultarDiario_Response> ConsultarDiario(usp_ConsultarDiario_Request obj);
         Task<usp_ConsultarDiario_Response> ConsultarDiarioFecEmpl(usp_ConsultarDiarioFecEmpl_Request obj);
+        Task<IEnumerable<usp_ListarDiario_Response>> ListarDiario();
     }
 }

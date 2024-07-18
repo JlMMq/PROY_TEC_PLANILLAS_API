@@ -42,5 +42,19 @@ namespace BROLRRHH.Api.Controllers
                 return BadRequest(ex);
             }
         }
+
+        [HttpGet("ListarDiario")]
+        public async Task<IActionResult> ListarDiario()
+        {
+            try
+            {
+                var res = await _unitOfWork.DiarioRepository.ListarDiario();
+                return Ok(res);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }
